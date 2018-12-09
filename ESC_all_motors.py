@@ -140,7 +140,7 @@ def stop(): #This will stop every action your Pi is performing for ESC ofcourse.
     pi.set_servo_pulsewidth(ESC4, 0)
     pi.stop()
 
-#This is the start of the program actually, to start the function it needs to be initialized before calling... stupid python.    
+  
 inp = input()
 if inp == "manual":
     manual_drive()
